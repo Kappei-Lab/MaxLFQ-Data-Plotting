@@ -1,0 +1,96 @@
+{
+  "xlabel": "log2 (fold change ZBTB48 vs. IgG)",
+  "ylabel": "-log10 (p-value)",
+  "title": "U2OS ZBTB48 ChIP-MS (DSPFA)",
+  "foldchange_cutoff": 2,
+  "pval_cutoff": 0.05,
+  "upreg": false,
+  "downreg": false,
+  "impute_perc": 5,
+  "impute_seed": 100016,
+  "std_shift": 0,
+  "n_iter": 3,
+  "base_color": "whitesmoke",
+  "color_up": "mistyrose",
+  "color_down": "silver",
+  "custom_groups": [
+    [
+      "ZBTB48"
+    ],
+    [
+      "TERF2",
+      "TERF1",
+      "ACD",
+      "TINF2",
+      "TERF2IP"
+    ],
+    [
+      "NR2C2",
+      "HMBOX1",
+      "NR2F2",
+      "ZNF827"
+    ],
+    [
+      "NME1-NME2",
+      "PPP1R10",
+      "AURKB",
+      "SLX4IP",
+      "RAD50",
+      "ERCC1",
+      "MRE11A",
+      "FEN1",
+      "BLM",
+      "NME1",
+      "FANCD2",
+      "ORC1",
+      "ORC2",
+      "ORC3",
+      "PML",
+      "SP100",
+      "TOP1",
+      "PAF1",
+      "XRCC1",
+      "MRE11A"
+    ],
+    [
+      "POT1"
+    ]
+  ],
+  "custom_colors": [
+    "mediumaquamarine",
+    "cornflowerblue",
+    "lightcoral",
+    "sandybrown",
+    "cornflowerblue"
+  ],
+  "custom_errorbar": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "Show_LFQ_intensity": false,
+  "colormap_up": "Reds",
+  "colormap_down": "Greens",
+  "custom_colormap": [
+    "Greens",
+    "Blues",
+    "Purples",
+    "Greys"
+  ],
+  "number_color": "black",
+  "Gene_names_from_Uniprot": false,
+  "legend_upreg": "ZBTB48 ChIP",
+  "legend_downreg": "IgG ChIP",
+  "upper_right_text": "ZBTB48 ChIP",
+  "upper_left_text": "IgG ChIP",
+  "plot_font": "Arial",
+  "title_size": 25,
+  "xylabel_size": 18,
+  "legend_size": 15,
+  "x_lower_limit": null,
+  "x_upper_limit": null,
+  "y_lower_limit": null,
+  "y_upper_limit": null
+}
